@@ -23,3 +23,8 @@ burgerButton.addEventListener('click', function(e) {
 
   e.stopPropagation();
 });
+
+//-------------------------------------------------
+//--- load onepage_scroll
+//-------------------------------------------------
+$(".main").onepage_scroll();

@@ -62,7 +62,7 @@ section {
 
 .close-icon.change {
   transform: translateX(62px);
-  transition: transform 0.5s ease-out;
+  transition: transform .5s ease-out;
 }
 
 .burger-icon.change {
@@ -160,7 +160,29 @@ section {
   bottom: 0;
 }
 
+/* ---------- MAIN -------------*/
+
+.onepage-pagination {
+  z-index: 3;
+}
+
+.onepage-pagination li a:before {
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+}
+
 /* -----------CONTENT --------- */
-.content {
+.content-1 {
   padding-top: 250px;
+  background-color: yellow;
+}
+
+.content-2 {
+  padding-top: 250px;
+  background-color: red;
+}
+
+.content-3 {
+  padding-top: 250px;
+  background-color: azure;
 }
