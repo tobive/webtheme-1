@@ -1,0 +1,7 @@
+put logo
+choose font - font-awesome, google font
+expanding image
+loading circle
+search form
+
+pallette: 31L0u1kqcQ6rVgtuRnFdKZ9cO+Ekk3llnO4pp+7Ee9GqgIOFkk3llnO4pp+7Ee9GqgIOF

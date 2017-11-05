@@ -28,3 +28,10 @@ burgerButton.addEventListener('click', function(e) {
 //--- load onepage_scroll
 //-------------------------------------------------
 $(".main").onepage_scroll();
+
+//-------------------------------------------------
+//--- assign click to burger menu
+//-------------------------------------------------
+$(document).on('keyup', '.nav-burger', function(e) {
+  if(e.which==13 || e.which==32) $(this).click();
+});

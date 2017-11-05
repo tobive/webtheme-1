@@ -319,7 +319,7 @@
 
     // Create Pagination and Display Them
     if (settings.pagination == true) {
-      if ($('ul.onepage-pagination').length < 1) $("<ul class='onepage-pagination'></ul>").prependTo("body");
+      if ($('ul.onepage-pagination').length < 1) $("<ul class='onepage-pagination'></ul>").insertAfter("#header"); //change for accessibility to header
 
       if( settings.direction == 'horizontal' ) {
         posLeft = (el.find(".onepage-pagination").width() / 2) * -1;
