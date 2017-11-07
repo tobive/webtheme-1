@@ -22,6 +22,12 @@ section {
 
 /* ----------- HEADER --------- */
 
+#header {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
 .search-button {
   position: fixed;
   top: 17px;
@@ -44,10 +50,10 @@ section {
   z-index: 4;
   position: fixed;
   overflow: hidden;
-  right: 10px;
-  top: 10px;
-  /*position: -webkit-sticky;
-  position: sticky;*/
+  /*right: 10px;*/
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   /*-webkit-backface-visibility: hidden;*/
 }
 
