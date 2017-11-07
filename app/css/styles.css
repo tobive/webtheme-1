@@ -10,6 +10,11 @@ html, body {
   display: block;
 }
 
+body {
+  overflow: hidden;
+  position: relative;
+}
+
 header, footer {
   display: block;
 }
