@@ -43,6 +43,7 @@ section {
   overflow: hidden;
   right: 10px;
   top: 10px;
+  position: -webkit-sticky;
   position: sticky;
 }
 
