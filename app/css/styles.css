@@ -20,6 +20,17 @@ section {
   min-height: calc(100vh - 70px);
 }
 
+/* ----------- HEADER --------- */
+
+.search-button {
+  position: fixed;
+  top: 17px;
+  right: 100px;
+  z-index: 4;
+  /*-webkit-transform: translate3d(0,0,5);
+  transform: translate3d(0,0,5);*/
+}
+
 /* BURGER BUTTON */
 .nav-burger {
   display: block;
@@ -32,6 +43,7 @@ section {
   overflow: hidden;
   right: 10px;
   top: 10px;
+  /*position: sticky;*/
 }
 
 .burger-line-1, .burger-line-2, .burger-line-3,
@@ -86,6 +98,7 @@ section {
   z-index: 3;
   opacity: 1;
   transition: opacity .1s ease-out 1s, top 0s 1s;
+
 }
 
 .nav-page.show {
@@ -106,6 +119,7 @@ section {
   align-items: center;
   background-color: #CC9EE7;
   margin: 0 auto;
+
 }
 
 .nav-page--menu.show {
