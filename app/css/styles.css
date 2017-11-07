@@ -29,8 +29,8 @@ section {
   z-index: 4;
   /*-webkit-transform: translate3d(0,0,5);
   transform: translate3d(0,0,5);*/
-  position: -webkit-sticky;
-  position: sticky;
+  /*position: -webkit-sticky;
+  position: sticky;*/
   -webkit-backface-visibility: hidden;
 }
 
@@ -46,8 +46,8 @@ section {
   overflow: hidden;
   right: 10px;
   top: 10px;
-  position: -webkit-sticky;
-  position: sticky;
+  /*position: -webkit-sticky;
+  position: sticky;*/
   -webkit-backface-visibility: hidden;
 }
 
