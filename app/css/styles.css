@@ -43,7 +43,7 @@ section {
   overflow: hidden;
   right: 10px;
   top: 10px;
-  /*position: sticky;*/
+  position: sticky;
 }
 
 .burger-line-1, .burger-line-2, .burger-line-3,
