@@ -31,6 +31,7 @@ section {
   transform: translate3d(0,0,5);*/
   position: -webkit-sticky;
   position: sticky;
+  -webkit-backface-visibility: hidden;
 }
 
 /* BURGER BUTTON */
@@ -47,6 +48,7 @@ section {
   top: 10px;
   position: -webkit-sticky;
   position: sticky;
+  -webkit-backface-visibility: hidden;
 }
 
 .burger-line-1, .burger-line-2, .burger-line-3,
